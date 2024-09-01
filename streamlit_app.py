@@ -1,6 +1,8 @@
 import streamlit as st
+import apiget
 
-st.title("🎈 My new app")
+st.title("Shark Finder")
+text = apiget.df
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+   text
 )
